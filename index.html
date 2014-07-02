@@ -50,18 +50,28 @@
   </div>
   <!-- end:div#header -->
   
+   <!-- javascript test DOM load to nav bar -->
+	  <script type="text/javascript">
+		 var gallery = document.getElementById("gallery-items");
+		 gallery.innerHTML = "
+			<div class="gallery-item" data-id="101"><img src="gallery01/images/01.jpg" alt="girls-01" style="display: none;"/></div>
+			<div class="gallery-item" data-id="204"><img src="gallery02/images/04.jpg" alt="lanscape-01" style="display: none;"/></div>
+			<div class="gallery-item" data-id="306"><img src="gallery03/images/06.jpg" alt="painting-06" style="display: none;"/></div>
+			<div class="gallery-item" data-id="405"><img src="gallery04/images/05.jpg" alt="portraits-05" style="display: none;"/></div>
+			<div class="gallery-item" data-id="502"><img src="gallery05/images/02.jpg" alt="travel-02" style="display: none;"/></div>
+			<div class="gallery-item" data-id="604"><img src="gallery06/images/04.jpg" alt="cool-house-04" style="display: none;"/></div>
+			<div class="gallery-item" data-id="703"><img src="gallery07/images/03.jpg" alt="underwater-03" style="display: none;"/></div>
+			<div class="gallery-item" data-id="803"><img src="gallery08/images/03.jpg" alt="glamour-03" style="display: none;"/></div>
+			<div class="gallery-item" data-id="903"><img src="gallery09/images/03.jpg" alt="still-life-03" style="display: none;"/></div>
+		";
+	  </script>
+  
   <div id="box">
     <div id="gallery" data-title="Photo">
       <div id="gallery-items">
-        <div class="gallery-item" data-id="101"><img src="gallery01/images/01.jpg" alt="girls-01" style="display: none;"/></div>
-        <div class="gallery-item" data-id="204"><img src="gallery02/images/04.jpg" alt="lanscape-01" style="display: none;"/></div>
-        <div class="gallery-item" data-id="306"><img src="gallery03/images/06.jpg" alt="painting-06" style="display: none;"/></div>
-        <div class="gallery-item" data-id="405"><img src="gallery04/images/05.jpg" alt="portraits-05" style="display: none;"/></div>
-        <div class="gallery-item" data-id="502"><img src="gallery05/images/02.jpg" alt="travel-02" style="display: none;"/></div>
-        <div class="gallery-item" data-id="604"><img src="gallery06/images/04.jpg" alt="cool-house-04" style="display: none;"/></div>
-        <div class="gallery-item" data-id="703"><img src="gallery07/images/03.jpg" alt="underwater-03" style="display: none;"/></div>
-        <div class="gallery-item" data-id="803"><img src="gallery08/images/03.jpg" alt="glamour-03" style="display: none;"/></div>
-        <div class="gallery-item" data-id="903"><img src="gallery09/images/03.jpg" alt="still-life-03" style="display: none;"/></div>
+
+		<!-- dynamic content for gallery display will go here -->
+	  
       </div>
     </div>
     <!-- end:div#gallery -->
@@ -132,6 +142,40 @@
     <!-- end:div.sidebar --> 
   </div>
 
+  <!-- javascript test DOM load to nav bar -->
+	  <script type="text/javascript">
+		 var nav = document.getElementById("gallery-nav");
+		 nav.innerHTML = 
+			"<ul>"+"
+					<li><a href="#!/101/" data-title="<strong>girls-01</strong>" data-id="101" data-count="1" class="current">
+					  <div class="gallery-thumb"><img src="gallery01/thumbs/01.jpg" alt="thumb-01" /></div>
+					  </a></li>
+					<li><a href="#!/204/" data-title="<strong>landscape-05</strong>" data-id="204" data-count="2" >
+					  <div class="gallery-thumb"><img src="gallery02/thumbs/04.jpg" alt="thumb-02" /></div>
+					  </a></li>
+					<li><a href="#!/306/" data-title="<strong>painting-01</strong>" data-id="306" data-count="3" >
+					  <div class="gallery-thumb"><img src="gallery03/thumbs/06.jpg" alt="thumb-03" /></div>
+					  </a></li>
+					<li><a href="#!/405/" data-title="<strong>portraits-01</strong>" data-id="405" data-count="4" >
+					  <div class="gallery-thumb"><img src="gallery04/thumbs/05.jpg" alt="thumb-04" /></div>
+					  </a></li>
+					<li><a href="#!/502/" data-title="<strong>travelt-01</strong>" data-id="502" data-count="5" >
+					  <div class="gallery-thumb"><img src="gallery05/thumbs/02.jpg" alt="thumb-05" /></div>
+					  </a></li>
+					<li><a href="#!/604/" data-title="<strong>cool-house-04</strong>" data-id="604" data-count="6" >
+					  <div class="gallery-thumb"><img src="gallery06/thumbs/04.jpg" alt="thumb-06" /></div>
+					  </a></li>
+					<li><a href="#!/703/" data-title="<strong>underwater-03</strong>" data-id="703" data-count="7" >
+					  <div class="gallery-thumb"><img src="gallery07/thumbs/03.jpg" alt="thumb-07" /></div>
+					  </a></li>
+					 <li><a href="#!/803/" data-title="<strong>glamour-03</strong>" data-id="803" data-count="8" >
+					  <div class="gallery-thumb"><img src="gallery08/thumbs/03.jpg" alt="thumb-08" /></div>
+					  </a></li>
+					<li><a href="#!/903/" data-title="<strong>still-life-03</strong>" data-id="903" data-count="9" >
+					  <div class="gallery-thumb"><img src="gallery09/thumbs/03.jpg" alt="thumb-09" /></div>
+					  </a></li>"
+			+"</ul>";
+	  </script>
   
   <div id="footer">
     <footer>
@@ -147,35 +191,9 @@
       <!-- end:div#info -->
       <div id="gallery-supplies">
         <div id="gallery-nav">
-          <ul>
-            <li><a href="#!/101/" data-title="<strong>girls-01</strong>" data-id="101" data-count="1" class="current">
-              <div class="gallery-thumb"><img src="gallery01/thumbs/01.jpg" alt="thumb-01" /></div>
-              </a></li>
-            <li><a href="#!/204/" data-title="<strong>landscape-05</strong>" data-id="204" data-count="2" >
-              <div class="gallery-thumb"><img src="gallery02/thumbs/04.jpg" alt="thumb-02" /></div>
-              </a></li>
-            <li><a href="#!/306/" data-title="<strong>painting-01</strong>" data-id="306" data-count="3" >
-              <div class="gallery-thumb"><img src="gallery03/thumbs/06.jpg" alt="thumb-03" /></div>
-              </a></li>
-            <li><a href="#!/405/" data-title="<strong>portraits-01</strong>" data-id="405" data-count="4" >
-              <div class="gallery-thumb"><img src="gallery04/thumbs/05.jpg" alt="thumb-04" /></div>
-              </a></li>
-            <li><a href="#!/502/" data-title="<strong>travelt-01</strong>" data-id="502" data-count="5" >
-              <div class="gallery-thumb"><img src="gallery05/thumbs/02.jpg" alt="thumb-05" /></div>
-              </a></li>
-            <li><a href="#!/604/" data-title="<strong>cool-house-04</strong>" data-id="604" data-count="6" >
-              <div class="gallery-thumb"><img src="gallery06/thumbs/04.jpg" alt="thumb-06" /></div>
-              </a></li>
-            <li><a href="#!/703/" data-title="<strong>underwater-03</strong>" data-id="703" data-count="7" >
-              <div class="gallery-thumb"><img src="gallery07/thumbs/03.jpg" alt="thumb-07" /></div>
-              </a></li>
-             <li><a href="#!/803/" data-title="<strong>glamour-03</strong>" data-id="803" data-count="8" >
-              <div class="gallery-thumb"><img src="gallery08/thumbs/03.jpg" alt="thumb-08" /></div>
-              </a></li>
-            <li><a href="#!/903/" data-title="<strong>still-life-03</strong>" data-id="903" data-count="9" >
-              <div class="gallery-thumb"><img src="gallery09/thumbs/03.jpg" alt="thumb-09" /></div>
-              </a></li>
-          </ul>
+		
+			<!-- dynamic content for navigation will go here -->
+		
         </div>
         <div class="gallery-name"><span><strong>FGN</strong></span></div>
         <ul class="social">
@@ -192,6 +210,7 @@
 </div>
 <!-- end:div#page --> 
 
+<!--
 <script type="text/javascript">
 		
 		  var _gaq = _gaq || [];
@@ -206,5 +225,7 @@
 		  })();
 		
 		</script>
+-->
+
 </body>
 </html>
