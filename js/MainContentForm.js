@@ -4,8 +4,8 @@ $(document).ready(function () { // load xml file using jquery ajax
         url: "galleryMain.xml",
         dataType: "xml",
         success: function(xml) {
-            var galOutput = '';
-			var navOutput = '<ul>';
+            var galOutput = '<div id="gallery-items">';
+			var navOutput = '<div id="gallery-nav"><ul>';
 			
             $(xml).find('picture').each(function(){
                 var c1 = $(this).find('class').text();
@@ -16,7 +16,7 @@ $(document).ready(function () { // load xml file using jquery ajax
 				
                 galOutput += '<div class="'+c1+'" data-id="'+d1+'"><img src="'+i1+'" alt="'+a1+'" style="'+s1+'"/></div>';
             });
-			galOutput += '';
+			galOutput += '</div>';
 			
 			$(xml).find('thumb').each(function(){
                 var c2 = $(this).find('class').text();
@@ -29,11 +29,11 @@ $(document).ready(function () { // load xml file using jquery ajax
 				
                 navOutput += '<li><a href="#!/'+d2+'/" data-title="'+t2+'" data-id="'+d2+'" data-count="'+n2+'" class="'+c2+'"><div class="'+c3+'"><img src="'+i2+'" alt="'+a2+'" /></div></a></li>';
             });
-			navOutput += '</ul>';
+			navOutput += '</ul></div>';
 			
 
-			$(div).find('.gallery-items').html(galOutput).end().appendTo($('body'));
-			$(div).find('.gallery-nav').html(navOutput).end().appendTo($('body'));
+			$(div).find('.gallery').html(galOutput).end().appendTo($('body'));
+			$(div).find('.gallery-supplies').html(navOutput).end().appendTo($('body'));
         }
     });
 
