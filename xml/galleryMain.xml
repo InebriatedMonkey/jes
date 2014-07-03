@@ -1,23 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gallery>
-	<picture class="gallery-item" data="101" source="gallery01/images/01.jpg" alt="girls-01" style="display: none;"  />
-	<picture class="gallery-item" data="204" source="gallery02/images/04.jpg" alt="lanscape-04" style="display: none;"  />
-	<picture class="gallery-item" data="306" source="gallery03/images/06.jpg" alt="painting-06" style="display: none;"  />
-	<picture class="gallery-item" data="405" source="gallery04/images/05.jpg" alt="portraits-05" style="display: none;"  />	
-	<picture class="gallery-item" data="502" source="gallery05/images/02.jpg" alt="travel-02" style="display: none;"  />
-	<picture class="gallery-item" data="604" source="gallery06/images/04.jpg" alt="cool-house-04" style="display: none;"  />
-	<picture class="gallery-item" data="703" source="gallery07/images/03.jpg" alt="underwater-03" style="display: none;"  />
-	<picture class="gallery-item" data="803" source="gallery08/images/03.jpg" alt="glamour-03" style="display: none;"  />
-	<picture class="gallery-item" data="903" source="gallery09/images/03.jpg" alt="still-life-03" style="display: none;"  />
+	<picture> 
+		<class>gallery-item</class> 
+		<data>101</data> 
+		<source>gallery01/images/01.jpg</source> 
+		<alt>girls-01</alt>
+		<style>display: none;</style>   
+	</picture>
+	<picture> 
+		<class>gallery-item</class> 
+		<data>204</data> 
+		<source>gallery02/images/04.jpg</source>  
+		<alt>lanscape-04</alt> 
+		<style>display: none;</style> 
+	</picture>
+	<picture> 
+		<class>gallery-item</class> 
+		<data>306</data>  
+		<source>gallery03/images/06.jpg</source>  
+		<alt>painting-06</alt> 
+		<style>display: none;</style> 
+	</picture>
+	<picture> 
+		<class>gallery-item</class> 
+		<data>405</data>  
+		<source>gallery04/images/05.jpg</source>  
+		<alt>portraits-05</alt> 
+		<style>display: none;</style> 
+	</picture>
+	<picture> 
+		<class>gallery-item</class> 
+		<data>502</data>  
+		<source>gallery05/images/02.jpg</source>  
+		<alt>travel-02</alt> 
+		<style>display: none;</style> 
+	</picture>
+	<picture> 
+		<class>gallery-item</class> 
+		<data>604</data>  
+		<source>gallery06/images/04.jpg</source>  
+		<alt>cool-house-04</alt> 
+		<style>display: none;</style> 
+	</picture>
+	<picture> 
+		<class>gallery-item</class> 
+		<data>703</data> 
+		<source>gallery07/images/03.jpg</source>  
+		<alt>underwater-03</alt> 
+		<style>display: none;</style> 
+	</picture>
+	<picture> 
+		<class>gallery-item</class> 
+		<data>803</data> 
+		<source>gallery08/images/03.jpg</source>  
+		<alt>glamour-03</alt> 
+		<style>display: none;</style> 
+	</picture>
+	<picture> 
+		<class>gallery-item</class> 
+		<data>903</data> 
+		<source>gallery09/images/03.jpg</source>  
+		<alt>still-life-03</alt> 
+		<style>display: none;</style> 
+	</picture>
 </gallery>
 <navigation>
-	<thumb title="<strong>girls-01</strong>" data="101" count="1" class="current" subclass="gallery-thumb" source="gallery01/thumbs/01.jpg" alt="thumb-01" />
-	<thumb title="<strong>landscape-04</strong>" data="204" count="2" class="" subclass="gallery-thumb" source="gallery02/thumbs/04.jpg" alt="thumb-02" />
-	<thumb title="<strong>painting-06</strong>" data="306" count="3" class="" subclass="gallery-thumb" source="gallery03/thumbs/06.jpg" alt="thumb-03" />
-	<thumb title="<strong>portraits-05</strong>" data="405" count="4" class="" subclass="gallery-thumb" source="gallery04/thumbs/05.jpg" alt="thumb-04" />
-	<thumb title="<strong>travelt-02</strong>" data="502" count="5" class="" subclass="gallery-thumb" source="gallery05/thumbs/02.jpg" alt="thumb-05" />
-	<thumb title="<strong>cool-house-04</strong>" data="604" count="6" class="" subclass="gallery-thumb" source="gallery06/thumbs/04.jpg" alt="thumb-06" />
-	<thumb title="<strongunderwater-03</strong>" data="703" count="7" class="" subclass="gallery-thumb" source="gallery07/thumbs/03.jpg" alt="thumb-07" />
-	<thumb title="<strong>glamour-03</strong>" data="803" count="8" class="" subclass="gallery-thumb" source="gallery08/thumbs/03.jpg" alt="thumb-08" />
-	<thumb title="<strong>still-life-03</strong>" data="903" count="9" class="" subclass="gallery-thumb" source="gallery09/thumbs/03.jpg" alt="thumb-09" />	
+	<thumb> 
+		<title>girls-01</title> 
+		<data>101</data>  
+		<count>1</count> 
+		<class>current</class>
+		<subclass>gallery-thumb</subclass> 
+		<source>gallery01/thumbs/01.jpg</source>  
+		<alt>thumb-01</alt>
+	</thumb>
+	<thumb> 
+		<title>landscape-04</title>  
+		<data>204</data>  
+		<count>2</count> 
+		<class></class> 
+		<subclass>gallery-thumb</subclass> 
+		<source>gallery02/thumbs/04.jpg</source>  
+		<alt>thumb-02</alt>
+	</thumb>
+	<thumb> 
+		<title>painting-06</title>  
+		<data>306</data> 
+		<count>3</count> 
+		<class></class> 
+		<subclass>gallery-thumb</subclass>  
+		<source>gallery03/thumbs/06.jpg</source>  
+		<alt>thumb-03</alt>
+	</thumb>
+	<thumb> 
+		<title>portraits-05</title>  
+		<data>405</data> 
+		<count>4</count> 
+		<class></class> 
+		<subclass>gallery-thumb</subclass> 
+		<source>gallery04/thumbs/05.jpg</source>  
+		<alt>thumb-04</alt>
+	</thumb>
+	<thumb> 
+		<title>travelt-02</title>  
+		<data>502</data> 
+		<count>5</count> 
+		<class></class> 
+		<subclass>gallery-thumb</subclass> 
+		<source>gallery05/thumbs/02.jpg</source>  
+		<alt>thumb-05</alt>
+	</thumb>
+	<thumb> 
+		<title>cool-house-04</title> 
+		<data>604</data> 
+		<count>6</count> 
+		<class></class> 
+		<subclass>gallery-thumb</subclass> 
+		<source>gallery06/thumbs/04.jpg</source>  
+		<alt>thumb-06</alt>
+	</thumb>
+	<thumb> 
+		<title>underwater-03</title> 
+		<data>703</data> 
+		<count>7</count> 
+		<class></class> 
+		<subclass>gallery-thumb</subclass> 
+		<source>gallery07/thumbs/03.jpg</source>  
+		<alt>thumb-07</alt> 
+	</thumb>
+	<thumb> 
+		<title>glamour-03</title>  
+		<data>803</data> 
+		<count>8</count> 
+		<class></class> 
+		<subclass>gallery-thumb</subclass>  
+		<source>gallery08/thumbs/03.jpg</source>  
+		<alt>thumb-08</alt>
+	</thumb>
+	<thumb> 
+		<title>still-life-03</title>  
+		<data>903</data> 
+		<count>9</count> 
+		<class></class> 
+		<subclass>gallery-thumb</subclass>  
+		<source>gallery09/thumbs/03.jpg</source>  
+		<alt>thumb-09</alt>
+	</thumb>
 </navigation>
