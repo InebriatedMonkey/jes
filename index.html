@@ -161,24 +161,19 @@
    <!-- javascript test DOM load to nav bar -->
    
 	  <script>
-	  	$(document).ready(function(){
-		 $("#gallery-items").html("
-			<div class="gallery-item" data-id="101"><img src="gallery01/images/01.jpg" alt="girls-01" style="display: none;"/>
-			<div class="gallery-item" data-id="204"><img src="gallery02/images/04.jpg" alt="lanscape-01" style="display: none;"/>
-			<div class="gallery-item" data-id="306"><img src="gallery03/images/06.jpg" alt="painting-06" style="display: none;"/>
-			<div class="gallery-item" data-id="405"><img src="gallery04/images/05.jpg" alt="portraits-05" style="display: none;"/>
-			<div class="gallery-item" data-id="502"><img src="gallery05/images/02.jpg" alt="travel-02" style="display: none;"/>
-			<div class="gallery-item" data-id="604"><img src="gallery06/images/04.jpg" alt="cool-house-04" style="display: none;"/>
-			<div class="gallery-item" data-id="703"><img src="gallery07/images/03.jpg" alt="underwater-03" style="display: none;"/>
-			<div class="gallery-item" data-id="803"><img src="gallery08/images/03.jpg" alt="glamour-03" style="display: none;"/>
-			<div class="gallery-item" data-id="903"><img src="gallery09/images/03.jpg" alt="still-life-03" style="display: none;"/>
-		");}
+	  var txt = '<div class="gallery-item" data-id="101"><img src="gallery01/images/01.jpg" alt="girls-01" style="display: none;"/><div class="gallery-item" data-id="204"><img src="gallery02/images/04.jpg" alt="lanscape-01" style="display: none;"/><div class="gallery-item" data-id="306"><img src="gallery03/images/06.jpg" alt="painting-06" style="display: none;"/><div class="gallery-item" data-id="405"><img src="gallery04/images/05.jpg" alt="portraits-05" style="display: none;"/><div class="gallery-item" data-id="502"><img src="gallery05/images/02.jpg" alt="travel-02" style="display: none;"/><div class="gallery-item" data-id="604"><img src="gallery06/images/04.jpg" alt="cool-house-04" style="display: none;"/><div class="gallery-item" data-id="703"><img src="gallery07/images/03.jpg" alt="underwater-03" style="display: none;"/><div class="gallery-item" data-id="803"><img src="gallery08/images/03.jpg" alt="glamour-03" style="display: none;"/><div class="gallery-item" data-id="903"><img src="gallery09/images/03.jpg" alt="still-life-03" style="display: none;"/>			'
+	  	$.ajax({
+  url: "index.html",
+  context: document.body
+}).done(function() {
+  $( "#gallery-items" ).html( txt );
+});
+		//$(document).ready(function(){$("#gallery-items").html(txt);}
 	  </script>
 	  
 <!-- javascript test DOM load to nav bar -->
 	  <script>
-	  	$(document).ready(function(){
-		 $("#gallery-nav").html("
+	  	$(document).ready(function(){$('#gallery-nav').html('
 			<ul>
 					<li><a href="#!/101/" data-title="<strong>girls-01</strong>" data-id="101" data-count="1" class="current">
 					  <div class="gallery-thumb"><img src="gallery01/thumbs/01.jpg" alt="thumb-01" />
@@ -208,7 +203,7 @@
 					  <div class="gallery-thumb"><img src="gallery09/thumbs/03.jpg" alt="thumb-09" />
 					  </a></li>"
 			</ul>
-			";}
+			');}
 	  </script>
 	  
 <!-- 
