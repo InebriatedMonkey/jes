@@ -2,7 +2,7 @@ $(document).ready(function() {
     $.ajax({
         type: "GET",
         url: "http://www.whatcanimake.org/jes/xml/galleryMain.xml",
-        dataType: "xml",
+        dataType: "html",
 		success: parseXmlGal,
         error: function (error) {
 			alert("Gal: Some problem.");
@@ -14,7 +14,7 @@ $(document).ready(function() {
     $.ajax({
         type: "GET",
         url: "http://www.whatcanimake.org/jes/xml/galleryNav.xml",
-        dataType: "xml",
+        dataType: "html",
 		success: parseXmlNav,
         error: function (error) {
 			alert("Nav: Some problem.");
