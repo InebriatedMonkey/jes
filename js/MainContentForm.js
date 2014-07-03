@@ -31,9 +31,9 @@ $(document).ready(function () { // load xml file using jquery ajax
             });
 			navOutput += '</ul>';
 			
-			
-			$('#gallery-items').html(galOutput);
-			$('#gallery-nav').html(navOutput);
+
+			$(div).find('.gallery-items').html(galOutput).end().appendTo($('body'));
+			$(div).find('.gallery-nav').html(navOutput).end().appendTo($('body'));
         }
     });
 
