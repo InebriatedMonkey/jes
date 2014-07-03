@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "http://www.whatcanimake.org/jes/xml/galleryMain.xml",
+        url: galleryMain.xml",
         dataType: "html",
 		success: parseXmlGal,
         error: function (error) {
@@ -13,7 +13,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "http://www.whatcanimake.org/jes/xml/galleryNav.xml",
+        url: "galleryNav.xml",
         dataType: "html",
 		success: parseXmlNav,
         error: function (error) {

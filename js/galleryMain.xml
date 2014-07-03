@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+  <gallery>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>101</data> 
+		  <source>gallery01/images/01.jpg</source> 
+		  <alt>girls-01</alt>
+		  <style>display: none;</style>   
+	  </picture>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>204</data> 
+		  <source>gallery02/images/04.jpg</source>  
+		  <alt>lanscape-04</alt> 
+		  <style>display: none;</style> 
+	  </picture>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>306</data>  
+		  <source>gallery03/images/06.jpg</source>  
+		  <alt>painting-06</alt> 
+		  <style>display: none;</style> 
+	  </picture>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>405</data>  
+		  <source>gallery04/images/05.jpg</source>  
+		  <alt>portraits-05</alt> 
+		  <style>display: none;</style> 
+	  </picture>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>502</data>  
+		  <source>gallery05/images/02.jpg</source>  
+		  <alt>travel-02</alt> 
+		  <style>display: none;</style> 
+	  </picture>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>604</data>  
+		  <source>gallery06/images/04.jpg</source>  
+		  <alt>cool-house-04</alt> 
+		  <style>display: none;</style> 
+	  </picture>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>703</data> 
+		  <source>gallery07/images/03.jpg</source>  
+		  <alt>underwater-03</alt> 
+		  <style>display: none;</style> 
+	  </picture>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>803</data> 
+		  <source>gallery08/images/03.jpg</source>  
+		  <alt>glamour-03</alt> 
+		  <style>display: none;</style> 
+	  </picture>
+	  <picture> 
+		  <class>gallery-item</class> 
+		  <data>903</data> 
+		  <source>gallery09/images/03.jpg</source>  
+		  <alt>still-life-03</alt> 
+		  <style>display: none;</style> 
+	  </picture>
+  </gallery>

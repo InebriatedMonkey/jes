@@ -3,13 +3,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
-<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
 <title>Reading XML with jQuery</title>
 <script>
      	$(document).ready(function(){
 			$.ajax({
 				type: "GET",
-				url: "sites.xml",
+				url: "xml/sites.xml",
 				dataType: "xml",
 				success: function(xml) {
 					$(xml).find('site').each(function(){
