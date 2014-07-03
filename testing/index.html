@@ -9,7 +9,7 @@
      	$(document).ready(function(){
 			$.ajax({
 				type: "GET",
-				url: "sites.xml",
+				url: "xml/sites.xml",
 				dataType: "xml",
 				success: function(xml) {
 					$(xml).find('site').each(function(){
