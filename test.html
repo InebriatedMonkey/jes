@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>html demo</title>
+  <style>
+  p {
+    margin: 8px;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+  }
+  b {
+    text-decoration: underline;
+  }
+  button {
+    cursor: pointer;
+  }
+  </style>
+
+  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+  
+	 <script>
+	$(document).ready(function() {
+		$( '#ln3' ).html('fucking douche');
+	});
+	</script>  
+</head>
+<body>
+<p>
+  <b>Click</b> to change the <span id="tag">html</span>
+</p>
+<p>
+ <div id="ln2">
+  to a <span id="text">text</span> node.
+ </div>
+</p>
+<p id="ln3">
+  This <button name="nada">button</button> does nothing.
+</p>
+
+	<script>
+		$( "p" ).click(function() {
+		  var htmlString = 'eat a bag of dicks';
+		  var htmlString2 = 'you cock sucker';
+		  $( this ).html(htmlString);
+		  $( '#ln2' ).html(htmlString2);
+		});
+	</script>
+
+</body>
+</html>
+
