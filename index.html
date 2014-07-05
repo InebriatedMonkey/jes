@@ -30,27 +30,29 @@
 
 <script>
 	$(document).ready(function() {
-		$.ajax({
-			type: "GET",
-			url: "xml/galleryMain.xml",
-			dataType: "xml",
-			success: parseXmlGal,
-			error: function (error) {
-				alert("Gal: Some problem.");
-			}
-		});
-	});
+					  
+		$('#gal01').click(function() {
+			$.ajax({
+				type: "GET",
+				url: "xml/galleryMain.xml",
+				dataType: "xml",
+				success: parseXmlGal,
+				error: function (error) {
+					alert("Gal: Some problem.");
+				}
+			});
 	
-	$(document).ready(function() {
-		$.ajax({
-			type: "GET",
-			url: "xml/galleryNav.xml",
-			dataType: "xml",
-			success: parseXmlNav,
-			error: function (error) {
-				alert("Nav: Some problem.");
-			}
-		});
+			$.ajax({
+				type: "GET",
+				url: "xml/galleryNav.xml",
+				dataType: "xml",
+				success: parseXmlNav,
+				error: function (error) {
+					alert("Nav: Some problem.");
+				}
+			});
+		})
+		
 	});
 </script>
 
@@ -77,9 +79,12 @@
   <div id="box">
     <div id="gallery" data-title="Photo">
       <div id="gallery-items">
-
-		This is a div. This will be updated with Contents from XML file by jQuery AJAX.
-	  
+		
+        <!--Base starting image (home page)-->
+		<div class="gallery-item" data-id="101" style="width: 1356px; ">
+        	<img src="gallery01/images/01.jpg" alt="girls-01" style="margin-left: 0px; margin-top: -311px; width: 1356px; height: 900px; display: inline; opacity: 1; ">
+	  	</div>
+     
       </div>
     </div>
     <!-- end:div#gallery -->
@@ -94,9 +99,9 @@
     <div class="sidebar">
       <div class="sidebar-items">
         <div class="scroll scroll-top" data-value="-=172"><span class="scroll-icon"></span></div>
-        <div class="item" data-slug="gallery01"> <a href="#!gallery01/">
+        <div class="item"> <a id="gal01">
           <h3>Girls<span>Gallery 01 </span></h3>
-          </a> <img width="300" height="150" src="gallery01/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-01" />
+          </a> <img width="300" height="150" src="gallery01/thumb.jpg" alt="thumb-01" />
           <div class="item_bg"></div>
         </div>
         <div class="item" data-slug="gallery02"> <a href="#!gallery02/">

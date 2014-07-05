@@ -228,6 +228,7 @@ var content = {
 								
 								$("li.facebook a").attr("href", results.social_facebook);
 								$("li.twitter a").attr("href", results.social_twitter);
+								$("li.linked-in a").attr("href", results.social_linkedin);
 								
 								$("#gallery-nav").html(results.nav);
 									
