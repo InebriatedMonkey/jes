@@ -1,27 +1,3 @@
-$(document).ready(function() {
-    $.ajax({
-        type: "GET",
-        url: "galleryMain.xml",
-        dataType: "html",
-		success: parseXmlGal,
-        error: function (error) {
-			alert("Gal: Some problem.");
-		}
-	});
-});
-
-$(document).ready(function() {
-    $.ajax({
-        type: "GET",
-        url: "galleryNav.xml",
-        dataType: "html",
-		success: parseXmlNav,
-        error: function (error) {
-			alert("Nav: Some problem.");
-		}
-	});
-});
-
 function parseXmlGal(xml) {
 	var galOutput = '';
 
