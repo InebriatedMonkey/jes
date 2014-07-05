@@ -14,6 +14,8 @@ function parseXmlGal(xml) {
 
 	galOutput += '';
 	
+	alert(galOutput);
+	
 	$('#gallery-items').html(galOutput);
 }
 
@@ -34,6 +36,8 @@ function parseXmlNav(xml) {
 	});
 	
 	navOutput += '</ul>';
+
+	alert(navOutput);
 
 	$('#gallery-nav').html(navOutput);
 }
