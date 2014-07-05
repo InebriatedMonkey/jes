@@ -2396,7 +2396,7 @@ var ltSlideshow = function () {
         $("div", this).toggleClass("play");
     });
 
-    if ($(".gallery-action div").hasClass("play") && window.location.href == '') { //check this line for potential edit to href
+    if ($(".gallery-action div").hasClass("play") && window.location.href == 'http://whatcanimake.org/jes') { //check this line for potential edit to href
         $(".gallery-action").delay(3500).queue(function () {
             $(this).trigger("click").dequeue();
         });

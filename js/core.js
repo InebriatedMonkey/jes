@@ -246,9 +246,9 @@ var content = {
 								}										
 								
 								if (nls_hash[0] !== 'home'){
-									document.title = results.title_raw + " » "; //check this line for potential edit to href
+									document.title = results.title_raw + " » http://whatcanimake.org/jes"; //check this line for potential edit to href
 								} else {
-									document.title =""; //check this line for potential edit to href
+									document.title ="http://whatcanimake.org/jes"; //check this line for potential edit to href
 								}	
 																
 								content.show(nls_hash);

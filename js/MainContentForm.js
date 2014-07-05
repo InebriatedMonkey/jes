@@ -14,14 +14,14 @@ function parseXmlGal(xml) {
 
 	galOutput += '';
 	
-	alert(galOutput);
+	//alert(galOutput);
 	
 	$('#gallery-items').html(galOutput);
 }
 
 function parseXmlNav(xml) {
 
-	var navOutput = '<ul>';
+	var navOutput = '';
 	
 	$(xml).find('thumb').each(function(){
 		var c2 = $(this).find('class').text();
@@ -32,14 +32,14 @@ function parseXmlNav(xml) {
 		var t2 = $(this).find('title').text();
 		var a2 = $(this).find('alt').text();
 		
-		navOutput += '<li><a href="#!/'+d2+'/" data-title="<strong>'+t2+'</strong>" data-id="'+d2+'" data-count="'+n2+'" class="'+c2+'"><div class="'+c3+'"><img src="'+i2+'" alt="'+a2+'" /></div></a></li>';
+		navOutput += '<li><a href="#!/'+d2+'/" data-title="'+t2+'" data-id="'+d2+'" data-count="'+n2+'" class="'+c2+'"><div class="'+c3+'"><img src="'+i2+'" alt="'+a2+'" /></div></a></li>';
 	});
 	
-	navOutput += '</ul>';
+	navOutput += '';
 
-	alert(navOutput);
+	//alert(navOutput);
 
-	$('#gallery-nav').html(navOutput);
+	$('#box-nav').html(navOutput);
 }
 
 /*
