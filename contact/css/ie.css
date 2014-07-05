@@ -39,7 +39,7 @@ select{
 }
 
 .close{
-    background:transparent url(images/overlay_close.jpg) no-repeat 0 0 scroll !important;
+    background:transparent url(../images/overlay_close.jpg) no-repeat 0 0 scroll !important;
     border:none !important;
     width:38px !important;
     height:38px  !important;

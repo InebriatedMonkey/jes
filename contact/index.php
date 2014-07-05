@@ -16,10 +16,10 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
 <meta http-equiv="imagetoolbar" content="no" />
 <link rel="shortcut icon" type="image/x-icon" href="http://flash-gallery.net/favicon.ico" />
-<link rel="stylesheet" type="text/css" media="screen, projection" href="css/style.css" />
-<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="js/plugins.js"></script>
-<script type="text/javascript" src="js/core.js"></script>
+<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/style.css" />
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../js/plugins.js"></script>
+<script type="text/javascript" src="../js/core.js"></script>
     <link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
@@ -30,13 +30,13 @@
 <body class="home page page-id-46 page-template-default desktop">
 <!--[if lte IE 7]>
 			<link rel="stylesheet" type="text/css" media="screen, projection" href="css/ie6.css" />
-			<script src="js/ie6warning.js"></script><script>window.onload=function(){e("css/ie6/")}</script>
+			<script src="../js/ie6warning.js"></script><script>window.onload=function(){e("css/ie6/")}</script>
 		<![endif]-->
 <?php include 'process-form.php'; ?>
 <div id="page">
   <div id="header">
     <div class="header">
-      <header> <a href="" id="logo" title="Photo Gallery Template"><img src="images/logo.png" alt="design17.flash-gallery.net" /></a>
+      <header> <a href="../" id="logo" title="Photo Gallery Template"><img src="../images/logo.png" alt="design17.flash-gallery.net" /></a>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         </meta>
       </header>
@@ -44,7 +44,7 @@
         <div class="menu-hauptmenu-container">
           <ul class="menu" id="menu-hauptmenu" name="menu-hauptmenu">
             <li id="menu-item-10" class="first_item menu-item-10"><a href="/#!about/">About</a></li>
-             <li id="menu-item-11" class="first_item menu-item-11"><a href="">Portfolio</a></li>
+             <li id="menu-item-11" class="first_item menu-item-11"><a href="../">Portfolio</a></li>
              <li id="menu-item-9" class="last_item menu-item-9"><a href="/contact/">Contact</a></li>
           </ul>
         </div>
@@ -57,7 +57,7 @@
   <div id="box">
     <div id="gallery" data-title="Contact">
      			<div id="gallery-items">		
-				<div class="gallery-item" data-id="497"><img src="gallery06/images/04.jpg" alt="contact" style="display: none;"/></div>			
+				<div class="gallery-item" data-id="497"><img src="../gallery06/images/04.jpg" alt="contact" style="display: none;"/></div>			
       </div>
     </div>
     <!-- end:div#gallery -->
@@ -80,7 +80,7 @@ VAT ID:  AADD0101</p></div></div><br class="clear" />
 <h3>Services</h3>
 <p>HTML5 - jQuery Photo Online Gallery Website Template.</p>
 <p>&nbsp;</p>
-<p><a href="mailto:contact@flash-gallery.net"><img class="size-full wp-image-411 alignnone" title="Send E-Mail" alt="" src="images/mail.png" width="136" height="98" /></a><a href="http://www.facebook.com/" target="_blank"><img class="alignnone size-full wp-image-412" title="Facebook Page" alt="" src="images/facebook.png" width="145" height="98" /></a><a href="http://www.behance.net/" target="_blank"><img class="alignnone size-full wp-image-413" title="Behance Portfolio" alt="" src="images/behance.png" width="145" height="98" /></a><a href="http://www.linkedin.com/" target="_blank"><img class="alignnone size-full wp-image-461" title="LinkedIn Profile" alt="" src="images/linkedin.png" width="135" height="98" /></a></p>
+<p><a href="mailto:contact@flash-gallery.net"><img class="size-full wp-image-411 alignnone" title="Send E-Mail" alt="" src="../images/mail.png" width="136" height="98" /></a><a href="http://www.facebook.com/" target="_blank"><img class="alignnone size-full wp-image-412" title="Facebook Page" alt="" src="../images/facebook.png" width="145" height="98" /></a><a href="http://www.behance.net/" target="_blank"><img class="alignnone size-full wp-image-413" title="Behance Portfolio" alt="" src="../images/behance.png" width="145" height="98" /></a><a href="http://www.linkedin.com/" target="_blank"><img class="alignnone size-full wp-image-461" title="LinkedIn Profile" alt="" src="../images/linkedin.png" width="135" height="98" /></a></p>
 <p>&nbsp;</p>
 <div class="message">
             <?php echo !empty($error_list) ? $error_list : ''; ?>
@@ -140,54 +140,54 @@ VAT ID:  AADD0101</p></div></div><br class="clear" />
     <div class="sidebar">
       <div class="sidebar-items">
         <div class="scroll scroll-top" data-value="-=172"><span class="scroll-icon"></span></div>
-        <div class="item" data-slug="gallery01"> <a href="#!gallery01/">
+        <div class="item" data-slug="gallery01"> <a href="../#!gallery01/">
           <h3>Girls<span>Gallery 01 </span></h3>
           </a> <img width="300" height="150" src="http://design17.flash-gallery.net/gallery01/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-01" />
           <div class="item_bg"></div>
         </div>
-        <div class="item" data-slug="gallery02"> <a href="#!gallery02/">
+        <div class="item" data-slug="gallery02"> <a href="../#!gallery02/">
           <h3>Landscape<span>Gallery 02 </span></h3>
           </a> <img width="300" height="150" src="http://design17.flash-gallery.net/gallery02/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-02" />
           <div class="item_bg"></div>
         </div>
-        <div class="item" data-slug="gallery03"> <a href="#!gallery03/">
+        <div class="item" data-slug="gallery03"> <a href="../#!gallery03/">
           <h3>Painting<span> Gallery 03</span></h3>
           </a> <img width="300" height="150" src="http://design17.flash-gallery.net/gallery03/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-03" />
           <div class="item_bg"></div>
         </div>
-        <div class="item" data-slug="gallery04"> <a href="#!gallery04/">
+        <div class="item" data-slug="gallery04"> <a href="../#!gallery04/">
           <h3>Portraits<span> Gallery 04</span></h3>
-          </a> <img width="300" height="150" src="gallery04/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-04" />
+          </a> <img width="300" height="150" src="../gallery04/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-04" />
           <div class="item_bg"></div>
         </div>
-        <div class="item" data-slug="gallery05"> <a href="#!gallery05/">
+        <div class="item" data-slug="gallery05"> <a href="../#!gallery05/">
           <h3>Travel<span> Gallery 05</span></h3>
-          </a> <img width="300" height="150" src="gallery05/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-05" />
+          </a> <img width="300" height="150" src="../gallery05/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-05" />
           <div class="item_bg"></div>
         </div>
-        <div class="item" data-slug="gallery06"> <a href="#!gallery06/">
+        <div class="item" data-slug="gallery06"> <a href="../#!gallery06/">
           <h3>Cool House<span> Gallery 06</span></h3>
-          </a> <img width="300" height="150" src="gallery06/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-06" />
+          </a> <img width="300" height="150" src="../gallery06/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-06" />
           <div class="item_bg"></div>
         </div>
-        <div class="item" data-slug="gallery07"> <a href="#!gallery07/">
+        <div class="item" data-slug="gallery07"> <a href="../#!gallery07/">
           <h3>Underwater<span> Gallery 07</span></h3>
-          </a> <img width="300" height="150" src="gallery07/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-07" />
+          </a> <img width="300" height="150" src="../gallery07/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-07" />
           <div class="item_bg"></div>
         </div>
-        <div class="item" data-slug="gallery08"> <a href="#!gallery08/">
+        <div class="item" data-slug="gallery08"> <a href="../#!gallery08/">
           <h3>Glamour<span> Gallery 08</span></h3>
-          </a> <img width="300" height="150" src="gallery08/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-07" />
+          </a> <img width="300" height="150" src="../gallery08/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-07" />
           <div class="item_bg"></div>
         </div>
-        <div class="item" data-slug="gallery09"> <a href="#!gallery09/">
+        <div class="item" data-slug="gallery09"> <a href="../#!gallery09/">
           <h3>Still Life<span> Gallery 09</span></h3>
-          </a> <img width="300" height="150" src="gallery09/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-09" />
+          </a> <img width="300" height="150" src="../gallery09/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="thumb-09" />
           <div class="item_bg"></div>
         </div>
         <div class="item"> <a href="https://www.flickr.com/photos/flash-galleryes/" target="_blank">
           <h3>More Photos<span> on Flickr</span></h3>
-          </a> <img width="300" height="150" src="images/flickr.jpg" class="attachment-post-thumbnail wp-post-image" alt="More Photos on Flickr" />
+          </a> <img width="300" height="150" src="../images/flickr.jpg" class="attachment-post-thumbnail wp-post-image" alt="More Photos on Flickr" />
           <div class="item_bg"></div>
         </div>
         <div class="scroll scroll-bottom" data-value="+=172"><span class="scroll-icon"></span></div>
