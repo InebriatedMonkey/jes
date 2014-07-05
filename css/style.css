@@ -49,7 +49,7 @@ div#gallery div#gallery-items div.gallery-item img { display: none; float: left;
 .no-js div#gallery div#gallery-items div.gallery-item:first-child img { display: block!important; } 
 .no-js div#gallery div#gallery-items div.gallery-item img { width: 100%; } 
 
-div.gallery-shadow { background: url('../images/bg_shadow.png') repeat-y; width: 13px; height: 100%; position: absolute; top: 0px; bottom: 45px; left: 0px; z-index: 1; display: block; } 
+div.gallery-shadow { background: url('images/bg_shadow.png') repeat-y; width: 13px; height: 100%; position: absolute; top: 0px; bottom: 45px; left: 0px; z-index: 1; display: block; } 
 
 div#gallery-nav { position: fixed; bottom: -6px; left: 500px; right: 200px; text-align: center; z-index: 101; } 
 div#gallery-nav ul li { display: inline; } 
@@ -111,10 +111,10 @@ form.printform h3 { padding-top: 8px; }
 
 /* jquery.selectBox.css
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.selectBox-dropdown { width:190px; position:relative; line-height:29px; height:29px; text-decoration:none!important; text-align:left; color:#fff; outline:none; vertical-align:middle; background:url(../images/bg_black_40.png); border:1px solid #3c3e40; display:inline-block; cursor:pointer; } 
+.selectBox-dropdown { width:190px; position:relative; line-height:29px; height:29px; text-decoration:none!important; text-align:left; color:#fff; outline:none; vertical-align:middle; background:url('images/bg_black_40.png'); border:1px solid #3c3e40; display:inline-block; cursor:pointer; } 
 .selectBox-dropdown.selectBox-menuShowing { -moz-border-radius-bottomleft:0; -moz-border-radius-bottomright:0; -webkit-border-bottom-left-radius:0; -webkit-border-bottom-right-radius:0; border-bottom-left-radius:0; border-bottom-right-radius:0; } 
 .selectBox-dropdown .selectBox-label { display:inline-block; white-space:nowrap; overflow:hidden; text-decoration:none; padding: 6px 10px 0; } 
-.selectBox-dropdown .selectBox-arrow { position:absolute; top:0; right:0; width:26px; height:29px; background:url(../images/bg_select_arrow.png) 0 -1px no-repeat; } 
+.selectBox-dropdown .selectBox-arrow { position:absolute; top:0; right:0; width:26px; height:29px; background:url('images/bg_select_arrow.png') 0 -1px no-repeat; } 
 .selectBox-dropdown-menu { position:absolute; z-index:99999; max-height:200px; min-height:1em; border:solid 1px #3c3e40; border-top:none; background:#000; overflow:auto; } 
 .selectBox-options,.selectBox-options li,.selectBox-options li a { list-style:none; display:block; cursor:pointer; text-align:left; color:#fff; margin:0; padding:0; } 
 .selectBox-options li a { font-size:13px; white-space:nowrap; overflow:hidden; padding:2px 10px; } 
@@ -140,7 +140,7 @@ div#header ul li a:hover, div#header ul li.current_page_item a, div#header ul li
 
 /* div#content
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-div#gallery-content { position: relative; min-height: 100%; width: 601px; float: right; display: none; width: 601px; color: #d2d2d2; background: url('../images/bg_black_70.png') repeat; -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.8); -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.8); box-shadow: 0px 0px 8px rgba(0,0,0,0.8);  } 
+div#gallery-content { position: relative; min-height: 100%; width: 601px; float: right; display: none; width: 601px; color: #d2d2d2; background: url('images/bg_black_70.png') repeat; -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.8); -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.8); box-shadow: 0px 0px 8px rgba(0,0,0,0.8);  } 
 div#gallery-content div.gallery-content { padding: 111px 20px 60px 20px; } 
 
 
