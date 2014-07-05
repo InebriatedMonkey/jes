@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: galleryMain.xml",
+        url: "galleryMain.xml",
         dataType: "html",
 		success: parseXmlGal,
         error: function (error) {
