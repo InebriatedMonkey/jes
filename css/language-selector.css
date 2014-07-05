@@ -30,7 +30,7 @@
 #lang_sel :hover > a, #lang_sel ul ul :hover > a {color:#000; background:#eee;}
 
 #lang_sel a.lang_sel_sel{
-    background:url(../img/nav-arrow-down.png) #fff right no-repeat;
+    background:url(img/nav-arrow-down.png) #fff right no-repeat;
     color:#444;
 }
 #lang_sel a.lang_sel_sel:hover{
