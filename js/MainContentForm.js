@@ -1,4 +1,6 @@
 function parseXmlGal(xml) {
+	alert("successful Gal call");
+	
 	var galOutput = '';
 
 	$(xml).find('picture').each(function(){
@@ -17,6 +19,8 @@ function parseXmlGal(xml) {
 }
 
 function parseXmlNav(xml) {
+	alert("successful Nav call");
+
 	var navOutput = '<ul>';
 	
 	$(xml).find('thumb').each(function(){

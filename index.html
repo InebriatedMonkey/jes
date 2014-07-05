@@ -44,9 +44,7 @@ $(document).ready(function() {
         type: "GET",
         url: "xml/galleryMain.xml",
         dataType: "xml",
-		success: function (error) {
-			alert("Gal: it worked?!");
-		},
+		success: parseXmlGal,
         error: function (error) {
 			alert("Gal: Some problem.");
 		}
