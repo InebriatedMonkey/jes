@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+<style type="text/css">
+body {
+	background-color: #020202;
+	background-image: url(images/Index/background.jpg);
+	background-repeat: no-repeat;
+}
+
+#microphone {
+	position: absolute;
+	left: 66px;
+	top: 52px;
+	width: 99px;
+	height: 1364px;
+	/*background-color: blue;*/
+	background-repeat: no-repeat;
+}
+
+#adele {
+	position: absolute;
+	left: 926px;
+	top: 80px;
+	width: 537px;
+	height: 554px;
+	/*background-color: red;*/
+	background-repeat: no-repeat;
+}
+
+#nick {
+	position: absolute;
+	left: 1370px;
+	top: 240px;
+	width: 537px;
+	height: 554px;
+	/*background-color: red;*/
+	background-repeat: no-repeat;
+}
+
+#tp {
+	position: absolute;
+	left: 1866px;
+	top: 380px;
+	width: 537px;
+	height: 554px;
+	/*background-color: green;*/
+	background-repeat: no-repeat;
+}
+
+#kt {
+	position: absolute;
+	left: 998px;
+	top: 704px;
+	width: 537px;
+	height: 554px;
+	/*background-color: yellow;*/
+	background-repeat: no-repeat;
+}
+
+#kanye {
+	position: absolute;
+	left: 1518px;
+	top: 840px;
+	width: 537px;
+	height: 554px;
+	/*background-color: orange;*/
+	background-repeat: no-repeat;
+}
+
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/Index/trans_adele2.png','images/Index/trans_Nick2.png','images/Index/trans_TP2.png','images/Index/trans_KT2.png','images/Index/trans_Kanye2.png')">
+
+<div id="microphone"><img src="images/Index/trans_micro.png" width="790" height="1406" alt=""/></div>
+
+<div id="adele"><a href="Adele.html"><img src="images/Index/trans_adele.png" alt="" width="543" height="556" id="adelephoto" onMouseOver="MM_swapImage('adelephoto','','images/Index/trans_adele2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+
+<div id="nick"><a href="nick.html"><img src="images/Index/trans_Nick.png" alt="" width="539" height="552" id="nickphoto" onMouseOver="MM_swapImage('nickphoto','','images/Index/trans_Nick2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+
+<div id="tp"><a href="TPain.html"><img src="images/Index/trans_TP.png" alt="" width="545" height="557" id="tpainphoto" onMouseOver="MM_swapImage('tpainphoto','','images/Index/trans_TP2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+
+<div id="kt"><a href="Kttunsdall.html"><img src="images/Index/trans_KT.png" alt="" width="541" height="556" id="ktphoto" onMouseOver="MM_swapImage('ktphoto','','images/Index/trans_KT2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+
+<div id="kanye"><a href="Kanye.html"><img src="images/Index/trans_Kanye.png" alt="" width="536" height="550" id="kanyephoto" onMouseOver="MM_swapImage('kanyephoto','','images/Index/trans_Kanye2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+
+
+</body>
+</html>
