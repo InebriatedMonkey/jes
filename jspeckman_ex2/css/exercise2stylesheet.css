@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #003;	
+	margin-left:20%;
+	margin-right:20%;
+	padding:2;
+	margin-top: 20px;
+}
+
+
+body.IWNEMD {
+	background-color: #999;
+
+}
+
+body.MCD {
+	background-color:#3CC;
+}
+
+body.tha {
+	background-color:#9C0;
+}
+
+body.WS {
+	background-color:#FC6;
+}
+
+body.DI {
+	background-color:#FFF;
+}
+
+h1.DI {
+	color:#633;
+	font-family:"MS Serif", "New York", serif;
+	margin-right:30%;
+	margin-top:30%;
+}
+
+h1.WS {
+	color:white;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:40px;
+	text-align:start;
+}
+
+h1 {
+	color: white;
+	text-algn: center;
+	font-size:36px;
+	font-family: Arial;
+	margin-left:20%;
+	margin-right:20%;
+	padding:2;
+	margin-top: 20px;
+}
+
+h1.IWNEMD {
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:xx-large;
+	font-style: oblique;
+	text-align:center;
+	border-style:dotted;
+	border-color:#FFF;
+	border-width:medium;
+	border-spacing:30px;
+	margin-left:25%;
+	margin-right:25%;
+
+}
+
+h1.subheader {
+	font-size:20px;
+	text-align: end;
+
+}
+
+h1.MCD {
+	color:#906;
+	text-align:left;
+	margin-left:35%;
+	margin-right:21%;
+	padding:0px;
+	
+}
+
+h1.MCDsubeader {
+	color: #906;
+	text-align:left;
+	margin-left:35%;
+	margin-right:17%;
+	font-style:oblique;
+	font-size:12px;
+	padding:1px;
+	margin-top:0px;
+
+}
+
+h1.tha {
+	color:#336;
+	text-align:right;
+	font-size:12px;
+	font-style:italic;
+	margin-right:20%;
+	
+}
+
+h1.thheader {
+	color:white;
+	font-style:italic;
+	font-family:"Times New Roman", Times, serif;
+	font-size:30px;
+}
+
+h1.thsubheader {
+	font-size:10px;
+	font-style:normal;
+}
+
+h2 {
+	color: white;
+	margin-left:20%;
+	margin-right:10%;
+	margin-top:20px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	font-style:italic;
+
+}
+
+h2.DI {
+	color:#633;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+p.index {
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:150px;
+	margin-top: 30%;
+	font-style:normal;
+	text-align:center;
+}
+	
+p {
+    font-family: "Avant Garde";
+    font-size: 15px;
+	margin-left:25%;
+	margin-right:25%;
+	padding:2;
+	margin-top: 30px;
+	text-align:justify;
+}
+
+p.IWNEMD {
+	color:black;
+	text-align: justify;
+	font-family: "Avant Garde";
+	column-width:auto;
+	column-span:2;
+	margin-left:40%;
+	font-style:oblique;
+	font-size: 20px;
+	
+}
+
+p.WS {
+	color: #f1f1f1;
+	font-family:"MS Serif", "New York", serif;
+}
+
+p.IWNEMD {
+	color:black;
+	text-align: justify;
+	font-family: "Avant Garde";
+	column-width:auto;
+	column-span:2;
+	margin-left:40%;
+	
+}
+
+p.MCD {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:left;
+	margin-left:35%;
+	margin-right:20%;
+	font-style: italic;
+	color: #333;
+}
+
+.greybox {
+	padding-top: 50px;
+	padding-right: 70px;
+	padding-bottom: 40px;
+	padding-left: 70px;
+	background-color: #666;
+	margin-top: 35px;
+}
+
+hr.style-seven { height: 30px; 
+	border-style: solid; 
+	border-color: white; 
+	border-width: 1px 0 0 0; 
+	border-radius: 10px; 
+	margin-top: 35px;
+} 
+
+
