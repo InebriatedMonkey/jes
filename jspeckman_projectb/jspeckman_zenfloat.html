@@ -23,7 +23,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing:normal;
 	color: #000; 
-	float: none;
 	width: 50%;
 	height:auto;
 	}
@@ -41,7 +40,6 @@ h1 {
 	font-family: 'Lato', sans-serif;
 	color: #000000;
 	font-size: 30px;
-	position: absolute;
 	width: 342px;
 	height: auto;
 	left: 44px;
@@ -51,15 +49,9 @@ h1 {
 
 
 h2 {
-	position: absolute;
-	margin-top: auto;
 	font-family: 'Montserrat', sans-serif;
 	color: #FFF;
-	width: 351px;
-	left: 42px;
-	top: 592px;
 	font-size: 20px;
-	right: 1px;
 }
 	
 	
@@ -92,10 +84,11 @@ a:hover, a:focus, a:active {
 	
 	
 header {
-	height: 500px;
-	position:absolute;
-	width:auto;
-	
+	height: 15px;
+	position: absolute;
+	width: auto;
+	left: 59px;
+	top: 520px;
 }
 
 
@@ -103,13 +96,14 @@ header {
 	background-color: #00a99d;
 	position: absolute;
 	width: 850px;
-	height: 2300px;
+	height: 3050px;
 	left: 25%;
 	top: -10px;
 	right: 25%;
 	background-image: url(images/design1_background.png);
 	background-position: top;
 	background-repeat: no-repeat;
+	padding-left: 60px;
 	}
 
 
@@ -117,28 +111,18 @@ header {
 	width: 266px;
 	text-align: center;
 	text-color: #FFFFFF;
-	position: absolute;
+	float: right;
 	font-family: 'Montserrat', sans-serif;
-	left: 469px;
+	margin-right: 175px; 
+	margin-top: 500px;
 	top: 525px;
 	}
 
 .summary p {
-	width: 500px;
 	text-align: left;
 	font-family: 'Montserrat', sans-serif;
 	color: #FFFFFF;
 	width: 350px;
-	}
-
-
-.preamble {
-	top: 628px;
-	width: 350px;
-	position: absolute;
-	font-family: 'Montserrat', sans-serif;
-	color: #FFF;
-	left: 42px;
 	}
 	
 .supporting {
@@ -146,22 +130,55 @@ header {
 	text-align: left;
 	text-color: #FFF;
 	widows: none;
-	position: absolute;
 	height: auto;
 	font-family: 'Montserrat', sans-serif;
-	left: 44px;
-	top: 954px;
+	padding-top: 954px;
+	}
+
+.preamble {
+	margin-top: 700px;
+	width: 350px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	left: 42px;
+	}
+
+.explanation {
+	width: 350px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	left: 42px;
+	
 	}
 	
+.benefits {
+	width: 350px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	left: 42px;
+	height: 220px;
+	}
+	
+	
 .participation {
-	position: absolute;
+	float: left;
 	width: 312px;
-	left: 426px;
-	top: 293px;
-	height: 408px;
+	left: 100px;
+	height: 530px;
 	widows: none;
 }
 
+.requirements {
+	float: left;
+	width: 312px;
+	left: 100px;
+	height: 708px;
+	widows: none;
+}
+	
 footer {
 	align-content: center;
 	font-family: 'Montserrat', sans-serif;
@@ -171,8 +188,8 @@ footer {
 	position: absolute;
 	height: 232px;
 	width: 41px;
-	left: 426px;
-	top: 865px;
+	left: 477px;
+	top: 1310px;
 	line-height: 30px;
 	}
 	
@@ -286,15 +303,15 @@ footer a:link, footer a:visited {
   <section class="intro" id="zen-intro">
 	  <header role="banner">
 		<h1>CSS Zen Garden</h1>
-			<h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
+		<h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
 	  </header>
 
 	<div class="summary" id="zen-summary" role="article">
-			<p>A demonstration of what can be accomplished through <abbr title="Cascading Style Sheets">CSS</abbr>-based design. Select any style sheet from the list to load it into this page.</p>
+	  <p>A demonstration of what can be accomplished through <abbr title="Cascading Style Sheets">CSS</abbr>-based design. Select any style sheet from the list to load it into this page.</p>
 			<p>Download the example <a href="/examples/index" title="This page's source HTML code, not to be modified.">html file</a> and <a href="/examples/style.css" title="This page's sample CSS, the file you may modify.">css file</a></p>
-		</div>
+	</div>
 
-		<div class="preamble" id="zen-preamble" role="article">
+	<div class="preamble" id="zen-preamble" role="article">
 		  <h3>The Road to Enlightenment</h3>
 			<p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible <abbr title="Document Object Model">DOM</abbr>s, broken <abbr title="Cascading Style Sheets">CSS</abbr> support, and abandoned browsers.</p>
 			<p>We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the <abbr title="World Wide Web Consortium">W3C</abbr>, <abbr title="Web Standards Project">WaSP</abbr>, and the major browser creators.</p>
