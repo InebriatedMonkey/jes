@@ -1,0 +1,58 @@
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 80%;
+	font-weight: bold;
+	}
+	
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin:2px;
+	padding:2px;
+	}
+
+hr {
+	border:none;
+	border-top:1px solid #CCCCCC;
+	height:1px;
+	margin-bottom:25px;
+	}
+	
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+	
+#menu {
+	width: 200px;
+	margin: 10px;
+	}
+	
+#menu li a {
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 32px;
+	text-decoration: none;
+	display:table-cell;
+	vertical-align:middle;
+	}
+	
+	
+#menu li a:link, #menu li a:visited {
+	color: #F8F6F6;
+	display: block;
+	background: url(images/menu.gif);
+	padding: 0;
+	width: 285px;
+	padding-right: 3px;
+	}
+	
+#menu li a:hover, #menu li a:active {
+	color: #050326;
+	background: url(images/menu.gif);
+	padding: 0;
+	width: 285px;
+	}
