@@ -230,13 +230,14 @@ myphoto img{
 
 /* === DOWNLOAD BUTTON === */
 .download-button a {
-    margin-left: 20px;
     background-color: #00A79D;
 	color:#FFFFFF;
-	align-content:center;
 }
-.download-button a i {
-    margin-left: 10px;
+
+.download-button a i:hover::after{
+ 	background-color: #FFFFFF;
+	color:#00A79D;
+	
 	
 }
 
@@ -258,6 +259,8 @@ myphoto img{
 	text-transform: lowercase;
     font-family: 'Palanquin', sans-serif;
 }
+
+
 
 
 /* === FOOTER === */
